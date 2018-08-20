@@ -40,7 +40,9 @@ def using_uniq(array)
   captain_planet_and_the_planeteers.uniq
 end
 
-def using_flatten
+def using_flatten(array)
+  private_colleges_in_newyork = ["New York University", ["Manhattan School of Music ", "Columbia University"], "The Juilliard School", "Bard College", "Cooper Union"]
+  private_colleges_in_newyork.flatten
 end
 
 def using_delete(array)
