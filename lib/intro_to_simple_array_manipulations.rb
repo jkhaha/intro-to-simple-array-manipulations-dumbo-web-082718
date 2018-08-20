@@ -32,7 +32,7 @@ end
 
 def using_insert(index, object)
   list_of_esoteric_programming_languages = ["Ante", "ArnoldC", "Befunge", "Binary lambda calculus", "Chef", "GolfScript", "Ook!"]
-  list_of_esoteric_programming_languages.insert(4, "Malbolge" at 4
+  list_of_esoteric_programming_languages.insert(4, "Malbolge")
 end
 
 def using_uniq
