@@ -27,7 +27,7 @@ end
 
 def using_concat(array)
   my_favorite_things = ["raindrops on roses", "whiskers on kittens"]
-  more_favs = ["mario kart", "flatiron school"]
+  my_favorite_things.concat(["mario kart", "flatiron school"])
 end
 
 def using_insert
