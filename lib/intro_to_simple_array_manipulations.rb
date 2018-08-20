@@ -35,7 +35,9 @@ def using_insert(index, object)
   list_of_esoteric_programming_languages.insert(4, "Malbolge")
 end
 
-def using_uniq
+def using_uniq(array)
+  captain_planet_and_the_planeteers = ["Captain Planet", "Gaia", "Kwame", "Gi", "Linka", "Wheeler", "Gaia"]
+  captain_planet_and_the_planeteers.uniq
 end
 
 def using_flatten
