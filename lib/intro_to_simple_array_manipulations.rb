@@ -26,7 +26,7 @@ def shift_with_args(array)
   ice_cream_brands.shift(2)
 end
 
-def using_concat(array)
+def using_concat(array1, array2)
   my_favorite_things = ["raindrops on roses", "whiskers on kittens"]
   my_favorite_things.concat(["mario kart", "flatiron school"])
 end
