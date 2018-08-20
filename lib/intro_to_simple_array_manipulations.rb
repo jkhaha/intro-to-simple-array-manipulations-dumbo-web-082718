@@ -9,6 +9,7 @@ def using_unshift(array, element)
 end
 
 def using_pop
+  great_hits_of_the_nineties = ["Baby One More Time", "Smells Like Teen Spirit", "Missing", "Walking On The Sun", "Hard Knock Life", "Losing My Religion"]
 end
 
 def pop_with_args
