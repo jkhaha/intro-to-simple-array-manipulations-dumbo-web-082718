@@ -3,9 +3,9 @@ def using_push(array, element)
   countries_in_western_africa.push("Niger")
 end
 
-def using_unshift
-      neighborhoods_in_northwest_brooklyn = ["Brooklyn Yards", "Cadman Plaza", "Clinton Hill", "Downtown Brooklyn", "DUMBO"]
-    @new_neighborhood = "Brooklyn Heights"
+def using_unshift(array, element)
+  neighborhoods_in_northwest_brooklyn = ["Brooklyn Yards", "Cadman Plaza", "Clinton Hill", "Downtown Brooklyn", "DUMBO"]
+   neighborhoods_in_northwest_brooklyn.unshift("Brooklyn Heights")
 end
 
 def using_pop
