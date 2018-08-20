@@ -13,8 +13,9 @@ def using_pop(array)
   great_hits_of_the_nineties.pop
 end
 
-def pop_with_args
-  
+def pop_with_args(array)
+  chars_in_game_of_thrones = ["Danny T.", "Tyrion Lannister", "Stable Boy", "Sandor Clegane"]
+  chars_in_game_of_thrones.pop(2)
 end
 
 def using_shift(array)
@@ -22,7 +23,7 @@ def using_shift(array)
     array.shift
 end
 
-def shift_with_args
+def shift_with_args(array)
   ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
   ice_cream_brands.shift(2)
 end
@@ -52,7 +53,7 @@ def using_delete(array)
   instructors.delete("Steven")
 end
 
-def using_delete_at
+def using_delete_at(array)
   famous_robots = ["the dog from doctor who", "R2D2", "Ultron"]
   famous_robots.delete_at(2)
 end
