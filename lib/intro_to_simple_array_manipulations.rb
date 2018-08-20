@@ -50,7 +50,7 @@ def using_delete(array,string)
   instructors.delete("Steven")
 end
 
-def using_delete_at(array)
+def using_delete_at(array,index)
   famous_robots = ["the dog from doctor who", "R2D2", "Ultron"]
   famous_robots.delete_at(2)
 end
