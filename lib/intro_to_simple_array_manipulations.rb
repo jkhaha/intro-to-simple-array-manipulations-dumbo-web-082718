@@ -30,9 +30,9 @@ def using_concat(array)
   my_favorite_things.concat(["mario kart", "flatiron school"])
 end
 
-def using_insert
+def using_insert(index, object)
   list_of_esoteric_programming_languages = ["Ante", "ArnoldC", "Befunge", "Binary lambda calculus", "Chef", "GolfScript", "Ook!"]
-    @another_esoteric_language = "Malbolge" at 4
+  list_of_esoteric_programming_languages.insert(4, "Malbolge" at 4
 end
 
 def using_uniq
